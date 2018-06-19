@@ -1,0 +1,15 @@
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.breakout{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90vw; 
+    background: linear-gradient(to left, rgba(0,0,0,0.4) 0%,rgba(0,0,0,.1) 100%);
+}
