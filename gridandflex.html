@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid;
+    }
+
+    .flex > div{
+        border: 1px solid;
+        flex: 3 1 250px;
+        margin: 10px;
+        margin: 1em;
+    }
+    .flex :first-child{
+        border: solid red;
+        flex-basis: 100px;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper flex">
+        <div>1Pellentesque  et Mauris placerat eleifend leo.</div>
+        <div> 2netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</div>
+        <div>3habitant morbi tristique senectus</div>
+        <div>4habitantflex: 1 1 250px;flex: 1 1 250px;flex: 1 1 250px;flex: 1 1 250px;flex: 1 1 250px; morbi tristique senectushabitant morbi tristique senectus</div>
+    </div>
+</body>
+</html>
