@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+  }
+  .red{
+    background:red;
+    flex: 1;
+  }
+  .white{
+    flex: 1;
+  }
+  .blue{
+      background-color: blue;
+      flex: 2;
+  }
+
+  .container > div{
+      font-size: 2vw;
+      padding: 5em;
+  }
